@@ -571,6 +571,7 @@ char getGameObj() {
     do {
         invalidInput = FALSE;
         printf("\nSelect an option from the above: ");
+        fflush(stdin);
         scanf("%d", &choice);
         if(choice < 1 || choice > 9) {
             invalidInput = TRUE;
