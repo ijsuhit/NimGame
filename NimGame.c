@@ -641,8 +641,8 @@ void printHomeMenu() {
     printf("\t***********************************\n");
 
     printf("\t*\t\t\t          *");
-    printf("\n\t*    1. Play against Jarvis          *");
-    printf("\n\t*    2. Play against a friend        *");
+    printf("\n\t*    1. Play against Jarvis       *");
+    printf("\n\t*    2. Play against a friend     *");
     printf("\n\t*    3. Instructions              *");
     printf("\n\t*    4. Exit                      *");
 
