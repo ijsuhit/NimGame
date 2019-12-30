@@ -513,9 +513,11 @@ short updateProfilePreference() {
     * Returns the name entered after validation
 */
 char * getPlayerName(short player2) {
-    char name[USERNAME_LEN_LIMIT];
+    char *name;
     short validInput = FALSE;
     int i = 0;
+
+    name = (char *) malloc(sizeof(char) * USERNAME_LEN_LIMIT);
 
     do {
         if(player2) {
