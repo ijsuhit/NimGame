@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 #include<conio.h>
+#include<cstdlib>
+#include<ctype.h>
 
 #define MIN 1
 #define MAX_ROWS 4      //Make sure MAX_ROWS is at least 4 and not more than 10 so that display and stuff are proper
